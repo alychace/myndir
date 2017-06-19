@@ -1,0 +1,43 @@
+---
+title: Myndir
+layout: default
+section-type: pics
+---
+
+{% for row in site.pics %}
+<div class="row">
+	<div class="col-md-4">
+		<br>
+		<a href="{{ row.image1 }}" data-toggle="lightbox" data-type="image" data-gallery="example-gallery">
+		<img src="{{ row.image1 }}" class="img-responsive img-fluid img-rounded">
+	</a>
+	</div>
+
+	<div class="col-md-4">
+		<br>
+		<a href="{{ row.image2 }}" data-toggle="lightbox" data-type="image" data-gallery="example-gallery">
+		<img src="{{ row.image2 }}" class="img-responsive img-fluid img-rounded">
+	</a>
+	</div>
+
+	<div class="col-md-4">
+		<br>
+		<a href="{{ row.image3 }}" data-toggle="lightbox" data-type="image" data-gallery="example-gallery">
+		<img src="{{ row.image3 }}" class="img-responsive img-fluid img-rounded">
+	</a>
+	</div>
+</div>
+{% endfor %}
+
+
+
+<style>
+/* Style the Image Used to Trigger the Modal */
+img {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+img:hover {opacity: 0.9;}
+</style>
