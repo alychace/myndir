@@ -13,7 +13,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: $font-color;
     font-weight: 400;
     background-color: $primary-color;
@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     letter-spacing: 4px;
 }
@@ -114,7 +114,7 @@ a {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($font-color, 0.3);
     text-transform: lowercase;
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-color: $navbar-sm-background-color;
 
     /* Fix height limit and scroll for small screen and many items menu */
@@ -132,7 +132,7 @@ a {
     .navbar-brand {
         font-weight: 700;
         font-size: 24px;
-        font-family: "Lato Black", sans-serif;
+        font-family: "Open Sans", sans-serif;
         &:focus {
             outline: none;
         }
@@ -224,7 +224,7 @@ a {
                 font-size: 100px;
             }
             .intro-text {
-                font-family: "Lato", sans-serif;
+                font-family: "Open Sans", sans-serif;
                 font-weight: 400;
                 font-size: 26px;
             }
@@ -328,7 +328,7 @@ blockquote p {
 
 .btn {
     border-radius: 0;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -350,7 +350,7 @@ blockquote p {
 
 .btn-default:hover,
 .btn-default:focus {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     border: 1px solid $font-color;
     outline: 0;
@@ -367,7 +367,7 @@ blockquote p {
 
 .btn-primary:hover,
 .btn-primary:focus {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     border: 1px solid $font-color;
     outline: 0;

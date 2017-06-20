@@ -9,13 +9,24 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : Myndir
-tagline: Site Tagline
+tagline: A photo portfolio.
 author :
   name : Marilyn Chace
   email : m@marilync.co
   github : username
   twitter : username
   feedburner : feedname
+
+social:
+- network: twitter
+  title: marilyncco
+  url: https://twitter.com/marilyncco
+- network: dollar
+  title: patreon
+  url: https://patreon.com/marilyncco
+- network: telegram
+  title: telegram
+  url: https://t.me/marilyncco
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
